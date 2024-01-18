@@ -1231,11 +1231,9 @@
     Task solution:
 const _ = require("lodash");
 const R = require("rambda");
-
 const solution = (width, length) => {
   return width * length;
 };
-
 module.exports = solution;
   steps:
     - Вставить значение "Task solution" вместо шаблона кода в редактор кода пользователя
@@ -1306,11 +1304,9 @@ module.exports = solution;
     Task solution:
 const _ = require("lodash");
 const R = require("rambda");
-
 const solution = (width, length) => {
   return width * length;
 };
-
 module.exports = solution;
   steps:
     - Пользователь № 1: Вставить значение "Task solution" вместо шаблона кода в редактор кода
