@@ -1,4 +1,4 @@
----
+    ---
 - summary: | # № 1
     Проверка отображения главной страницы (для неавторизованных пользователей) после ее открытия неавторизованным пользователем
   requirement: |
@@ -1229,12 +1229,12 @@
     Открыта страница игры против бота с заданием "rect_area" игры
   test-data: |
     Task solution:
-const _ = require("lodash");
-const R = require("rambda");
-const solution = (width, length) => {
-  return width * length;
-};
-module.exports = solution;
+    const _ = require("lodash");
+    const R = require("rambda");
+    const solution = (width, length) => {
+      return width * length;
+    };
+    module.exports = solution;
   steps:
     - Вставить значение "Task solution" вместо шаблона кода в редактор кода пользователя
     - Нажать на кнопку "Run"
@@ -1302,12 +1302,12 @@ module.exports = solution;
     У пользователей № 1 и № 2 открыта страница игры друг с другом с заданием "rect_area" игры
   test-data: |
     Task solution:
-const _ = require("lodash");
-const R = require("rambda");
-const solution = (width, length) => {
-  return width * length;
-};
-module.exports = solution;
+    const _ = require("lodash");
+    const R = require("rambda");
+    const solution = (width, length) => {
+      return width * length;
+    };
+    module.exports = solution;
   steps:
     - Пользователь № 1: Вставить значение "Task solution" вместо шаблона кода в редактор кода
     - Пользователь № 1: Нажать на кнопку "Run"
