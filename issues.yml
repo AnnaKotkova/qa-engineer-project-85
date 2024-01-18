@@ -2,7 +2,7 @@
 issues:
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1541#issuecomment-1897771695"
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1673#issuecomment-1897776826"
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1690#issuecomment-1897783507"
+  - url: "^https://github.com/hexlet-codebattle/codebattle/issues/1690#issuecomment-1897783507"
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1720#issue-2087490434"
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1721#issue-2087495205"
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1722#issue-2087507041"
